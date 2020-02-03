@@ -1,17 +1,17 @@
 ## First you must install docker and docker-compose and configure according documentation
 
-## Install dependencies 
+ Install dependencies 
 ### `npm install express`
 ### `npm install nodemon`
 
-## Sign in docker DockerID/Password
+ Sign in docker DockerID/Password
 ### `docker login`
 
-## Docker container
+ Docker container
 ### `docker build -t bentoco/nodedocker .`
 
-## Run application without compose
+ Run application without compose
 ### `docker run -p 3000:3000 -d bentoco/nodedocker`
 
-## Run application with Docker Compose
+ Run application with Docker Compose
 ### `docker-compose up`
